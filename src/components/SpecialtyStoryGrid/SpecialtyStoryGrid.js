@@ -95,8 +95,8 @@ const SportStories = styled.div`
   grid-template-columns: repeat(auto-fill, minmax(165px, 1fr));
 
   @media ${QUERIES.tabletAndUp} {
-    grid-template-columns: revert;
-    display: flex;
+    grid-template-columns: repeat(5, 220px);
+    display: grid;
     overflow: auto;
   }
 `;
