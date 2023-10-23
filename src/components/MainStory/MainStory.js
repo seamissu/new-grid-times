@@ -73,6 +73,10 @@ const ReadMore = styled.a`
     text-decoration: underline;
     text-underline-offset: 1px;
   }
+
+  @media ${QUERIES.tabletAndUp} {
+    font-weight: var(--font-weight-bold);
+  }
 `;
 
 export default MainStory;
